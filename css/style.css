@@ -1,0 +1,158 @@
+body {
+    font-family: "Ubuntu";
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.portada {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    background-color: #edf0f3;
+    color: rgb(150, 148, 148);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(150, 148, 148);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+.propiedad{
+    border: 1px solid rgb(199, 195, 195);
+    border-radius: 15px 15px 0 0;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 375px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+}
+.propiedad img{
+    width: 375px;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+}
+.propiedad h3{
+    margin: 10px 0;
+}
+.propiedad p{
+    margin: 5px 0;
+}
+
+.card {
+    height: 520px;
+    border: 1px solid rgb(199, 195, 195);
+    border-radius: 15px 15px 0 0;
+    width: 375px;
+    font-size: 20px;
+
+}
+
+section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card img {
+    height: 250px;
+    width: 375px;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.card h5 {
+    margin: 15px;
+}
+
+.card p {
+    margin: 15px;
+    font-size: 15px;
+}
+
+.condicionales {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.condicionales img {
+    width: 24px;
+    height: 24px;
+}
+
+.no-smoking {
+    color: red;
+}
+
+.si-smoking {
+    color: green;
+}
+
+.accept-masc {
+    color: green;
+}
+
+.no-masc {
+    color: red;
+}
+
+
+.btn-container{
+    text-align: left;
+    margin: 20px;
+}
+.ver-mas-btn {
+    /*display: block;*/
+    width: 200px;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+   
+}
+
+.ver-mas-btn:hover {
+    background-color:grey;
+}
